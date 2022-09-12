@@ -1,0 +1,70 @@
+body{
+    background-color: #1E2022;
+}
+
+.profileImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.profileText{
+    color:#F0F5F9;
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    text-decoration:line-through;
+    text-decoration-thickness: 0.5px;
+}
+
+.footerText{
+    color:#F0F5F9;
+    text-align: center;
+    padding:50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+
+}
+
+.invite{
+    color:#C9D6DF;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #F0F5F9;
+    border-width: 2px;
+
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px;
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: #F0F5F9;
+    transition:color 1s;
+}
+
+a:hover{
+    color:black;
+    background-color: #C9D6DF;
+}
