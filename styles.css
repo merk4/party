@@ -1,5 +1,6 @@
 body{
-    background-color: #1E2022;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .profileImage{
@@ -7,10 +8,10 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 100%;
+    /* height: 150px; */
+    /* width: 150px; */
+    /* object-fit: cover; */
+    /* border-radius: 100%; */
 }
 
 .profileText{
@@ -32,7 +33,7 @@ body{
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
-    font-size: 12px;
+    font-size: 20PX;
 
 }
 
@@ -46,10 +47,10 @@ body{
 .links {
     text-align: center;
     margin-top: 20px;
-    border: 1px solid #F0F5F9;
+    border: 1px solid #f0f5f9;
     border-width: 2px;
 
-    width: 290px;
+    width: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -67,4 +68,12 @@ a{
 a:hover{
     color:black;
     background-color: #C9D6DF;
+}
+
+.container {
+    border: 2px solid #ffffff; /* You can change the border color and width */
+    padding: 20px; /* Adjust the padding as needed */
+    width: fit-content; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    border-radius: 10%;
 }
