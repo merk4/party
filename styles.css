@@ -1,44 +1,45 @@
-body{
+body {
     background-color: #000000;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.profileImage{
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 10%;
+    max-width: 100%;
+}
+
+.profileImage {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
-    /* height: 150px; */
-    /* width: 150px; */
-    /* object-fit: cover; */
-    /* border-radius: 100%; */
+    max-width: 100%; /* Make sure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
 }
 
-.profileText{
-    color:#F0F5F9;
+.profileText {
+    color: #F0F5F9;
     text-align: center;
-    padding-top: 0px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
+    padding: 20px;
     font-size: 20px;
-    text-decoration:line-through;
+    text-decoration: line-through;
     text-decoration-thickness: 0.5px;
 }
 
-.footerText{
-    color:#F0F5F9;
+.footerText {
+    color: #F0F5F9;
     text-align: center;
-    padding:50px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    font-size: 20PX;
-
+    padding: 20px;
+    font-size: 20px;
 }
 
-.invite{
-    color:#C9D6DF;
+.invite {
+    color: #C9D6DF;
     text-align: center;
     padding: 20px;
     font-size: 20px;
@@ -46,34 +47,45 @@ body{
 
 .links {
     text-align: center;
-    margin-top: 20px;
+    margin: 20px auto;
     border: 1px solid #f0f5f9;
     border-width: 2px;
-
-    width: 500px;
+    max-width: 100%; /* Ensure links are not wider than the screen */
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-
     border-radius: 40px;
-    font-size: 40px;
+    font-size: 20px;
+    padding: 10px 20px; /* Adjust padding for mobile devices */
 }
 
-a{
+a {
     text-decoration: none;
     color: #F0F5F9;
-    transition:color 1s;
+    transition: color 1s;
 }
 
-a:hover{
-    color:black;
+a:hover {
+    color: black;
     background-color: #C9D6DF;
 }
 
-.container {
-    border: 2px solid #ffffff; /* You can change the border color and width */
-    padding: 20px; /* Adjust the padding as needed */
-    width: fit-content; /* Adjust the width as needed */
-    margin: 0 auto; /* Center the container horizontally */
-    border-radius: 2%;
+/* Media query for screens smaller than 500px */
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 10px; /* Adjust container padding for smaller screens */
+    }
+
+    .profileImage {
+        margin-top: 5%;
+    }
+
+    .profileText,
+    .footerText,
+    .invite {
+        font-size: 16px;
+    }
+
+    .links {
+        font-size: 16px;
+        padding: 5px 10px; /* Adjust padding for smaller screens */
+    }
 }
