@@ -35,7 +35,7 @@ body {
     color: #F0F5F9;
     text-align: center;
     padding: 20px;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 .invite {
@@ -50,10 +50,22 @@ body {
     margin: 20px auto;
     border: 1px solid #f0f5f9;
     border-width: 2px;
-    max-width: 100%; /* Ensure links are not wider than the screen */
+    max-width: 90%; /* Ensure links are not wider than the screen */
     display: block;
     border-radius: 40px;
     font-size: 20px;
+    padding: 10px 20px; /* Adjust padding for mobile devices */
+}
+
+.footLinks {
+    text-align: center;
+    margin: 20px auto;
+    border: 1px solid #f0f5f9;
+    border-width: 1px;
+    max-width: 15%; /* Ensure links are not wider than the screen */
+    display: block;
+    border-radius: 40px;
+    font-size: 10px;
     padding: 10px 20px; /* Adjust padding for mobile devices */
 }
 
@@ -79,9 +91,12 @@ a:hover {
     }
 
     .profileText,
-    .footerText,
     .invite {
         font-size: 16px;
+    }
+
+    .footerText{
+        font-size: 10px;
     }
 
     .links {
