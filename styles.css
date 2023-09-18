@@ -18,8 +18,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
-    max-width: 100%; /* Make sure the image is responsive */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%;
+    /* Make sure the image is responsive */
+    height: auto;
+    /* Maintain aspect ratio */
 }
 
 .profileText {
@@ -50,11 +52,13 @@ body {
     margin: 20px auto;
     border: 1px solid #f0f5f9;
     border-width: 2px;
-    max-width: 90%; /* Ensure links are not wider than the screen */
+    max-width: 90%;
+    /* Ensure links are not wider than the screen */
     display: block;
     border-radius: 40px;
     font-size: 20px;
-    padding: 10px 20px; /* Adjust padding for mobile devices */
+    padding: 10px 20px;
+    /* Adjust padding for mobile devices */
 }
 
 .footLinks {
@@ -62,12 +66,26 @@ body {
     margin: 20px auto;
     border: 1px solid #f0f5f9;
     border-width: 1px;
-    max-width: 15%; /* Ensure links are not wider than the screen */
+    max-width: 15%;
+    /* Ensure links are not wider than the screen */
     display: block;
     border-radius: 40px;
     font-size: 10px;
-    padding: 10px 20px; /* Adjust padding for mobile devices */
+    padding: 10px 20px;
+    /* Adjust padding for mobile devices */
 }
+
+#qrcode-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  #qrcode {
+    width: 128px;
+    height: 128px;
+  }
 
 a {
     text-decoration: none;
@@ -83,7 +101,8 @@ a:hover {
 /* Media query for screens smaller than 500px */
 @media screen and (max-width: 500px) {
     .container {
-        padding: 10px; /* Adjust container padding for smaller screens */
+        padding: 10px;
+        /* Adjust container padding for smaller screens */
     }
 
     .profileImage {
@@ -95,12 +114,14 @@ a:hover {
         font-size: 16px;
     }
 
-    .footerText{
+    .footerText {
         font-size: 10px;
     }
 
     .links {
         font-size: 16px;
-        padding: 5px 10px; /* Adjust padding for smaller screens */
+        padding: 5px 10px;
+        /* Adjust padding for smaller screens */
     }
 }
+

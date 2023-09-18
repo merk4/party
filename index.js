@@ -76,15 +76,30 @@ function updateTextBasedOnId(id) {
     '123424' : 'Despoina', // https://merk4.github.io/party/?id=123424
     '831510': 'Saverina', // https://merk4.github.io/party/?id=831510
     '872341': 'Panagioti', // https://merk4.github.io/party/?id=872341
-    '12332' : 'Alexandra' // https://merk4.github.io/party/?id=12332
+    '12332' : 'Alexandra', // https://merk4.github.io/party/?id=12332
+    '878341': 'Zgou' // https://merk4.github.io/party/?id=878341
   };
-  
   
   
 
   const selectedName = texts[id] || 'Agnoste';
   const formattedText = `<h2>${selectedName} you are invited !</h2>`;
   textDisplay.innerHTML = formattedText;
+
+  function generateQRCode(selectedName) {
+    const qr = new QRCode(document.getElementById("qrcode"), {
+      text: `Welcome ${selectedName}`,
+      width: 128,
+      height: 128,
+      colorDark : "#000000",
+      colorLight : "#ffffff",
+      correctLevel : QRCode.CorrectLevel.H
+    });
+  }
+  
+  
+  // Generate the QR code based on the ID parameter
+  generateQRCode(selectedName);
 }
 
 // Get the person ID from the URL parameter
@@ -97,3 +112,7 @@ if (personId) {
   // Default behavior if no ID is provided
   updateTextBasedOnId('1');  // Default to Person 1 if no ID provided
 }
+
+
+// Function to generate the QR code based on the ID parameter
+
