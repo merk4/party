@@ -66,7 +66,17 @@ function updateTextBasedOnId(id) {
     '491625': 'Maria', // https://merk4.github.io/party/?id=491625 (fltzn)
     '491622' : 'Markella', // https://merk4.github.io/party/?id=491622
     '340982' : 'Sofia', // https://merk4.github.io/party/?id=340982
-    '340972' : 'Stelio' // https://merk4.github.io/party/?id=340972
+    '340972' : 'Stelio', // https://merk4.github.io/party/?id=340972
+    '341982' : 'Angela', // https://merk4.github.io/party/?id=341982
+    '341922' : 'Natasa', // https://merk4.github.io/party/?id=341992,
+    '241982' : 'Irida', // https://merk4.github.io/party/?id=241982
+    '241912' : 'Kimon', // https://merk4.github.io/party/?id=241912
+    '242912' : 'John', // https://merk4.github.io/party/?id=242912
+    '12342' : 'Vicky', // https://merk4.github.io/party/?id=12342
+    '123424' : 'Despoina', // https://merk4.github.io/party/?id=123424
+    '831510': 'Saverina', // https://merk4.github.io/party/?id=831510
+    '872341': 'Panagioti', // https://merk4.github.io/party/?id=872341
+    '12332' : 'Alexandra' // https://merk4.github.io/party/?id=12332
   };
   
   
