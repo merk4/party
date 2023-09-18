@@ -68,7 +68,7 @@ function updateTextBasedOnId(id) {
     '340982' : 'Sofia', // https://merk4.github.io/party/?id=340982
     '340972' : 'Stelio', // https://merk4.github.io/party/?id=340972
     '341982' : 'Angela', // https://merk4.github.io/party/?id=341982
-    '341922' : 'Natasa', // https://merk4.github.io/party/?id=341992,
+    '341922' : 'Natasa', // https://merk4.github.io/party/?id=341922,
     '241982' : 'Irida', // https://merk4.github.io/party/?id=241982
     '241912' : 'Kimon', // https://merk4.github.io/party/?id=241912
     '242912' : 'John', // https://merk4.github.io/party/?id=242912
@@ -77,7 +77,9 @@ function updateTextBasedOnId(id) {
     '831510': 'Saverina', // https://merk4.github.io/party/?id=831510
     '872341': 'Panagioti', // https://merk4.github.io/party/?id=872341
     '12332' : 'Alexandra', // https://merk4.github.io/party/?id=12332
-    '878341': 'Zgou' // https://merk4.github.io/party/?id=878341
+    '878341': 'Vivi', // https://merk4.github.io/party/?id=878341
+    '878342': 'Eleftheria' // https://merk4.github.io/party/?id=878342
+
   };
   
   
