@@ -79,9 +79,6 @@ function updateTextBasedOnId(id) {
     '12332' : 'Alexandra', // https://merk4.github.io/party/?id=12332
     '878341': 'Vivi', // https://merk4.github.io/party/?id=878341
     '878342': 'Eleftheria', // https://merk4.github.io/party/?id=878342
-    '180902': 'Theodore', // https://merk4.github.io/party/?id=180902
-    '180903': 'Zgou', // https://merk4.github.io/party/?id=180903
-    '180904': 'Christo', // https://merk4.github.io/party/?id=180904
     '432144': 'Evelina' // https://merk4.github.io/party/?id=432144
 
   };
