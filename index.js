@@ -83,6 +83,7 @@ function updateTextBasedOnId(id) {
     '180903': 'Zgou', // https://merk4.github.io/party/?id=180903
     '180904': 'Christo', // https://merk4.github.io/party/?id=180904
     '432144': 'Evelina' // https://merk4.github.io/party/?id=432144
+
   };
   
   
