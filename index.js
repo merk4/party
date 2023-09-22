@@ -21,7 +21,7 @@ function updateTextBasedOnId(id) {
     '598723': '', // https://merk4.github.io/party/?id=598723
     '146789': 'Mano', // https://merk4.github.io/party/?id=146789
     '284519': 'Thanasime', // https://merk4.github.io/party/?id=284519
-    '329045': 'Billo', // https://merk4.github.io/party/?id=329045
+    '329045': 'Billako', // https://merk4.github.io/party/?id=329045
     '835617': 'Chari', // https://merk4.github.io/party/?id=835617
     '502836': 'Mixali', // https://merk4.github.io/party/?id=502836
     '913245': 'Aristoteli', // https://merk4.github.io/party/?id=913245
