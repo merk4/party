@@ -83,12 +83,11 @@ function updateTextBasedOnId(id) {
     '180903': 'Zgou', // https://merk4.github.io/party/?id=180903
     '180904': 'Christo', // https://merk4.github.io/party/?id=180904
     '432144': 'Evelina' // https://merk4.github.io/party/?id=432144
-
   };
   
   
 
-  const selectedName = texts[id] || 'Agnoste';
+  const selectedName = texts[id] || 'Unknown person';
   const formattedText = `<h2>${selectedName} you are invited !</h2>`;
   textDisplay.innerHTML = formattedText;
 
